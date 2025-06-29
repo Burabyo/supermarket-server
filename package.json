@@ -2,7 +2,7 @@
   "name": "supermarket-server",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+  "script": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,12 +18,12 @@
   "homepage": "https://github.com/Burabyo/supermarket-server#readme",
   "description": "",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.0.0",
     "express": "^5.1.0"
   },
   "scripts": {
-  "start": "node index.js"
-}
-
+    "start": "node index.js"
+  }
 }
